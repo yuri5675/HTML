@@ -1,0 +1,90 @@
+<!--O Elemento <form></form> é a tag que se usa para criar um formulario no html-->
+<!--<input/> é a tag usada para os campos do formulario-->
+<!--<label><?label> é a tg utilizada para o rotulo do formulario-->
+<!--Atributos <form>: 
+    action: define o local (url) onde os dados são enviados 
+    Method: define qual méodo de envio dos dos dados( sendo ele "get" ou "post")
+   
+     Get: vai pegar as informções que estão dentro do formulario e jogar na url do site 
+    Post: quando o formulario é enviado usando post, voce nçao obtém dados anexados a URL
+
+
+
+      Atributos label:
+    for: é o atributo de entrada específica a qual o campo label pertence(nome,senha,etc)
+
+
+
+     Atributos da tag input:
+      id: atributo que identificador do campo
+      name: atributo que da nome ao campo
+      placeholfer: legenda dentro do campo( como o login do facebook)
+      type: atributo que especifica o tipo de campo que será exibido
+    
+        tipos de type:
+        type ="text"-->
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label for="">
+            nome
+            
+        </label>
+    <input type="text">
+     
+
+   
+    </form>
+    <form action="">
+        <label for="">
+            senha
+        </label>
+        <input type="text">
+     </form>
+    
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Testando outro metodo</h3>
+
+    <form action="index.html" method="get">
+
+        <label for="nome">Nome:</label><br>
+        <input type="text" name="nome" id="nome">
+          <br> 
+        <label for="sobrenome">Sobrenome </label><br>
+        <input type="text" name="sobrenome" id="sobrenome">
+        <br>
+        <label for="e-mail">E-mail</label><br>
+        <input type="email" name="E-mail" id="E-mail">
+    </form>
+
+   
+
+    
+    
+</body>
+</html>
