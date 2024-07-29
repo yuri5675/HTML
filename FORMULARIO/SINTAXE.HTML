@@ -60,7 +60,7 @@
 
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -70,7 +70,7 @@
 <body>
     <h3>Testando outro metodo</h3>
 
-    <form action="index.html" method="get">
+    <form action="index.html" method="get" enctype="multipart/form-data">
 
         <label for="nome">Nome:</label><br>
         <input type="text" name="nome" id="nome">
@@ -87,28 +87,146 @@
         <br><br>
         <!--logo abaixo temos imput tipo radio-->
         <label for="iniciante">
-            <input type="radio" name="nivel" id="Iniciante ">       
+            <input type="radio" name="nivel" id="Iniciante " value="iniciante">       
     sou Iniciante
         </label>
 
         <label for="junior">
-            <input type="radio" name="nivel" id="junior">
+            <input type="radio" name="nivel" id="junior" value="junior">
             junior
         </label>
         <label for="senior">
-            <input type="radio" name="nivel" id="senior">
+            <input type="radio" name="nivel" id="senior" value="senior">
             Senior
         </label>
 
+    
+    
+        <!--utilizando selct    .
+  sintaxe:  
+   <select>
+    <opition></option
+    </select-->
+      <label for="escolaridade">
+            <br><strong>Sua Escolaridade</strong>
+        </label>
+
+        <select name="escolaridade " id="escolaridade">
+            <option>Selecione</option>
+            <option selected disabled></option>
+            <option value="Educação basica">Educação basica</option>
+            <option value="Ensino médio">Ensino médio</option>
+            <option value="Ensino superior ">Ensino superior</option>
+            <option value="Pos graduação">Pos graduação</option>
+        
+        
+        
+        </select>
+        <!--Final do campo especial    select-->
+        <span>
+            <br><br><strong>selecione as tecnologias que voce domina: </strong>
+            </span>
+            <br><br>
+
+            <input type="checkbox" name="tecnologia1" id="tecnologia1">
+            <label for="tecnologia1">HTML</label>
+
+            <input type="checkbox" name="tecnologia2" id="tecnologia2">
+            <label for="tecnologia2">CSS</label>
+
+            <input type="checkbox" name="tecnologia3" id="tecnologia3">
+            <label for="tecnologia3">javascript</label>
+
+            <input type="checkbox" name="tecnologia4" id="tecnologia4">
+            <label for="tecnologia4">Reactjs</label>
+
+
+            <!--- type number-->
+            <br><br><label for="idade">informe sua idade
+
+            </label>
+            <input type="number">
+
+            <br><br>
+
+            <label for="datadenascimento">Data de nascimento</label>
+            <input type="date">
+
+            <br><br>
+
+            <label for="tempo">Tempo</label>
+            <input type="time">
+
+            <!--type = "file" feito para enviar documento e e imagens e pdf-->
+
+
+
+            <br><br>
+            <label for="adioneoarquivoaqui">Adicione o arquivo aqui</label><br>
+            <br><input type="file" name="adioneoarquivoaqui" id="adioneoarquivoaqui">
+
+            <br><br>
+
+            <label for="arquivoimage">carregar imagem:</label>
+            <br><input type="file" name="arquivoimage" id="arquivoimage" accept="image">
+
+            <br><br>
+            <label for="arquivopdf">carregar PDF:</label>
+            <br><input type="file" name="arquivopdf" id="arquivopdf" accept="application/pdf">
+
+            <!--campo de caixa de texto-->
+
+            <br>
+            <label for="mensagem">Escreva um comentario</label>
+            <br>
+            <textarea 
+            name="mensagem" 
+            id="mensagem" 
+            cols="30" 
+            rows="10"></textarea>
+
+            <!-- fim da caixa de texto-->
+            <br><br>
+
+            <label for="senha">criar senha:</label>
+            <input type="passoword" name="senha" id="senha">
+            
+            <!--Não se recomenda utilizar a tag button, sim o tipo submit-->
+
+            <br>
+
+            <input type="submit" value="cadastar ">
+
+            <!--required( campos obrigatorios )
+            
+            minlenght(quantidades minimas dde caracteres)
+        
+             maxilenght(quantidades maxima de caractere)-->
+
+        
+
+
+
+
+            
+           
+    
+
+            
+
+            
+    
+    
+    
     
     </form>
 
      <!--o "nivel" é usando para selecionar apenas uma opção, tambem podendo ser usar no "radio"-->
 
 
-   
-
-    
-    
 </body>
 </html>
+
+
+
+    
