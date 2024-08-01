@@ -1,0 +1,43 @@
+<!--- /* Margem e prenchimento: serve para ajustar o espaço em torno de elemntos 
+
+    usamos as propiedades margin e padding
+    
+    margin: serve para o espaçamento externo (container pai)
+    padding: serve para o espaçamento interno (conteiner filho )*/
+}-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .div_one{
+        border: 5px solid blue;
+        width: 70%;
+        height: 200px;
+        margin-top: 50px;/* mexe a borda de cima para baixo*/
+        margin-left: 50px;/* mexe a borda da esqueda para a direita */
+        margin-right: 10px;/* mexe a bprda da direita para a esqueda*/
+        margin-bottom: 50px;/*mexe a borda de baixo para cima*/
+        margin: 50px 100px; /* mexe em todas as formas anteriores. primeira medida é para cima e baixo e segunda medida é esquerda direita  */
+        margin: 0 auto;
+        padding: 50px auto;/* movimentação do container filho ( o verde)*/
+    }
+        .div_one_filha{
+            border: 5px solid green; 
+            width:  50%;
+            height: 100px;
+          margin: 0px auto;
+        }
+</style>
+
+<body style=" border: 5px solid red; width: 100%; height: 100vh;">
+    <div class="div_one"><div class="div_one_filha"></div></div>
+    
+    
+</body>
+</html>

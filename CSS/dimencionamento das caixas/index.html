@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box sizing</title>
+
+<style>
+    .div_pai{
+        border: 5px solid black;
+        width: 40%;
+        height: 50%;
+        margin-top: 10%;
+        padding-left: 60%;
+    }
+
+        .div_pai-filho{
+            border: 5px solid blue;
+            width: 100%;
+            padding: 5px;
+            box-sizing: border-box;/* não permite que a bordar seja ultrapassada*/
+        }
+</style>
+
+</head>
+<body>
+    <div class="div_pai">
+        <div class="div_pai-filho"></div>
+    </div>
+    
+</body>
+</html>

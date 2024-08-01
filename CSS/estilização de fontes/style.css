@@ -1,0 +1,43 @@
+/*importando fontes do projeto*/
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Sankofa+Display&display=swap');
+
+
+
+
+  
+
+
+#corpo_principal{
+    background-color: rgb(209, 34, 34);
+}
+
+/*rgba: muda a intensidade das cores, ex:" rgba(0,0,0,0.5) o 0.5 é um exemplo de mudaça*/
+
+.titulo_principal{
+    color: black;
+    font-family: "Sankofa Display", sans-serif;
+    text-align: center;
+    border: 5px solid black;/* geralmente se usa pixels para a borda*/
+    
+}
+
+.one_p{
+    color: black;
+    font-family: "Sankofa Display", sans-serif;
+    font-size: 20px; /* usado para mudar tamnho da fonte*/
+    font-weight: bold; /*bold deixa em negrito*/
+    font-style: oblique; /* muda o estilo (oblico, normal e etc)*/
+    text-align: center; /* o center é usado para centralizar. entretanto existe outros no "text- aling"*/
+    text-transform: capitalize;/* deixa a inicial da palavra com letra maiscula*/
+    border: 5px solid green;/* geralmente se usa pixels para a borda*/
+
+
+
+   
+}
+
+
+
