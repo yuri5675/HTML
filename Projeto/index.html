@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id=" estrutura">
+    <h2 class ="requisitos_para_contrato ">Requisitos para Contrato</h2>
+    <fieldset>
+
+    
+    
+    
+
+    <form action="index2.html" method="get" enctype="multipart/form-data">
+    
+    <label for="nomecompleto">Nome Completo:</label><br>
+    <input required type="text" name="nomecompleto" id="nomecompleto" maxlength="100" placeholder="campo obrigatório">
+    <br> 
+    <label for="email">E-mail:</label><br>
+    <input required type="email" name="email" id="email" placeholder="xxxxx@gmail.xxxx">
+    <br>
+    <label for="telefone">Telefone</label><br>
+    <input required type="tel" name="telefone" id="telefone" maxlength="14" placeholder="(00)0000-0000">
+    <br>
+
+    <label for="assunto">
+    <br> <strong>Assunto</strong>
+</label>
+
+<br><select required name="assunto" id="assunto" >
+<option selected disabled></option>
+<option value="suporte tecnico">Suporte Tecnico</option>
+<option value="consultoria">Consultoria</option>
+<option value="desenvolvimento de software">Desenvolvimento de Software</option>
+</select>
+<br>
+<label  for="menssagem">Mensasagem</label><br>
+<textarea required 
+placeholder="campo obrigatório"
+name="mensagem" 
+id="mensagem" 
+cols="30" 
+rows="10">
+</textarea>
+
+<br><input type="submit" value="Enviar">
+
+
+
+
+
+
+
+
+
+
+</fieldset>
+
+
+</form>
+</body>
+</html>
