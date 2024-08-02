@@ -1,0 +1,22 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+#inicio{
+    text-align: center;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.inicio_filho{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+body{
+    background-image: url(../img/B.jpg);
+    background-size: cover;
+}
