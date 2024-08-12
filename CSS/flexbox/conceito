@@ -1,0 +1,35 @@
+flexbox:
+
+ideia principal: tem por objetivo dar ao container a capacidade e alterar sua largura/itens/altura 
+e ordem
+
+o flexbox possui um conjunto de propiedades. algumas delas devem ser definidas mo conteiner pai,
+algumas delas devem ser definidas filhos
+
+Propiedades para os pais:
+
+1-flex: define um container flexivel para todos os filhos 
+Ex: diplay:flex; deixa os filhos posicionados nas horizontal
+
+2- row-reverse: da direita para a esquerda
+Ex: flex-direction: row-reverse
+
+3- colum: de cima para baixo
+Ex: flex-direction: colum
+
+4- colum-reverse: de baixo para cima
+Ex: flex-direction: colum-reverse
+
+5- flex-warp
+° nowrap: é o padrão, ou seja, todos os itens estarão na mesma linha.
+° wrap: os intes serão envoltos em várias linas, de cima para baixo
+° wrap-reverse: os itens serão envoltos em várias linhas de baixo para cima 
+
+6- justify- contente: ajuda a distribuir o espaço dos itens em relação ao container
+°flex-start: padrão, os itens permanecem posicionados no inicío do container
+°flex-end: os itens são posicionados no final do conteiner 
+°center: joga os itens para o meio da pagina
+°space-between: deixa eles separados um para cada canto
+°space-arround: deixa eles separados sem atingir o limite da borda
+°space- evelyn:o espaço é distribuido igualmente entre cada elemento adjacente, ou seja
+um ao lado do outro, com exeção do primeiro e último
